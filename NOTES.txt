@@ -1,0 +1,40 @@
+Priority 1 Features:
+
+- Implement the bounding box in order to improve collision detection efficiency
+
+- Write collision handlers for hitting obstacles (stops game) and hitting emojis (increments counter)
+
+DONE - Implement a method to flip gravity and finish key bindings
+
+- Create a struct to store the player
+
+- Write the main method of the game (initializing player model, generating obstacles)
+    NEED TO FIX: obstacles and emojis sometimes overlap
+
+Priority 2 Features:
+
+- Add a counter for number of emojis collected and display on the screen
+
+DONE - Write functions for creating basic models of Kanye, Ariana, emojis, etc.
+
+- Implement a background of the screen that scrolls as the character runs
+
+Priority 3 Features:
+
+- Add a start screen with buttons for choosing the player which switches into the start state of the game.
+
+- Add an end screen when the obstacles are hit with the ability to go back to the start screen
+
+- Add ability to distinguish between the two characters, making sure that obstacles/emojis generated match the player character
+
+DONE - Make the models actually look like Kanye, Ariana, emojis, etc.
+
+Priority 4 Features:
+
+- Animate the player models
+
+- Add level functionality
+
+- Add sound effects for collisions
+
+- Make the player character bounce when it hits the ground
