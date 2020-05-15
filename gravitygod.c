@@ -5,13 +5,13 @@
 #include <string.h>
 #include <SDL2/SDL_image.h>
 #include <SDL2/SDL_ttf.h>
-#include "scene.h"
-#include "body.h"
-#include "polygon_helper.h"
-#include "forces.h"
-#include "color.h"
-#include "vector.h"
-#include "sdl_wrapper.h"
+#include "include/scene.h"
+#include "include/body.h"
+#include "include/polygon_helper.h"
+#include "include/forces.h"
+#include "include/color.h"
+#include "include/vector.h"
+#include "include/sdl_wrapper.h"
 
 // Window constants
 #define WINDOW_MAX ((Vector) {.x = 80.0, .y = 80.0})
